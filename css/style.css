@@ -4,12 +4,19 @@
     margin: 0;
 }
 
+:root {
+    --main-padding: 20px;
+    --background-color-main: #0072bb;
+    --color: #ffffff; 
+}
+
+
 body {
     background-color: #d9dcd6;
 }
 
 a {
-    color: #ffffff;
+    color: var(--color);
     text-decoration: none;
 }
 
@@ -22,7 +29,7 @@ p {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    color: var(--color);
 }
 
 .header h1 {
@@ -83,20 +90,20 @@ p {
 }
 .search-engine-optimization {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: var(--main-padding);
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: var(--background-color-main);
+    color: var(--color);
 }
 
 .online-reputation-management {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: var(--main-padding);
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: var(--background-color-main);
+    color: var(--color);
 }
 
 .social-media-marketing {
@@ -105,7 +112,7 @@ p {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    color: var(--color);
 }
 
 .search-engine-optimization img {
@@ -147,50 +154,32 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* CONSOLIDATE */
 .benefit-lead {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--color);
 }
 
 .benefit-brand {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--color);
 }
 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--color);
 }
+/* CONSOLIDATE */
 
-.benefit-lead h3 {
+/* CONSOLIDATE */
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
+/* CONSOLIDATE */
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
