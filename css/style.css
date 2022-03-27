@@ -5,8 +5,6 @@
 }
 
 :root {
-    --main-padding: 20px;
-    --background-color-main: #0072bb;
     --color: #ffffff; 
 }
 
@@ -88,32 +86,21 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-#search-engine-optimization, #online-reputation-management, #social-media-marketing {
+
+.content article {
     margin-bottom: 20px;
-    padding: var(--main-padding);
+    padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--background-color-main);
+    background-color: #0072bb;
     color: var(--color);
 }
 
-#search-engine-optimization img, #online-reputation-management img, #social-media-marketing img {
+main article img {
     max-height: 200px;
 }
 
-
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+main article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -131,7 +118,7 @@ p {
     background-color: #2589bd;
 }
 
-.benefits div{
+aside div {
     margin-bottom: 32px;
     color: var(--color);
 }
